@@ -470,4 +470,4 @@ networks:
       config:
         - subnet: ${TEST_NETWORK}
 volumes:
-  mongodbdata_cx: {}
+  mongodbdata: {}

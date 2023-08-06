@@ -43,6 +43,9 @@ sed -i 's|ICSCF_IP|'$ICSCF_IP'|g' install/etc/freeDiameter/hss.conf
 sed -i 's|SCSCF_IP|'$SCSCF_IP'|g' install/etc/freeDiameter/hss.conf
 sed -i 's|EPC_DOMAIN|'$EPC_DOMAIN'|g' install/etc/freeDiameter/hss.conf
 sed -i 's|IMS_DOMAIN|'$IMS_DOMAIN'|g' install/etc/freeDiameter/hss.conf
+sed -i 's|ICSCF_BIND_PORT|'$ICSCF_BIND_PORT'|g' install/etc/freeDiameter/hss.conf
+sed -i 's|SCSCF_BIND_PORT|'$SCSCF_BIND_PORT'|g' install/etc/freeDiameter/hss.conf
+sed -i 's|HSS_BIND_PORT|'$HSS_BIND_PORT'|g' install/etc/freeDiameter/hss.conf
 sed -i 's|LD_LIBRARY_PATH|'$LD_LIBRARY_PATH'|g' install/etc/freeDiameter/hss.conf
 sed -i 's|EPC_DOMAIN|'$EPC_DOMAIN'|g' install/etc/freeDiameter/make_certs.sh
 sed -i 's|MONGO_IP|'$MONGO_IP'|g' install/etc/open5gs/hss.yaml

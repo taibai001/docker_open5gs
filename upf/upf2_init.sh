@@ -40,6 +40,7 @@ cp /mnt/upf/upf2.yaml install/etc/open5gs/upf.yaml
 sed -i 's|UPF2_IP|'$UPF2_IP'|g' install/etc/open5gs/upf.yaml
 sed -i 's|SMF2_IP|'$SMF2_IP'|g' install/etc/open5gs/upf.yaml
 sed -i 's|UE_IPV4_PRIVATE_TUN_IP|'$UE_IPV4_PRIVATE_TUN_IP'|g' install/etc/open5gs/upf.yaml
+sed -i 's|UE_IPV4_PRIVATE_SUBNET|'$UE_IPV4_PRIVATE'|g' install/etc/open5gs/upf.yaml
 sed -i 's|UPF2_ADVERTISE_IP|'$UPF2_ADVERTISE_IP'|g' install/etc/open5gs/upf.yaml
 sed -i 's|MAX_NUM_UE|'$MAX_NUM_UE'|g' install/etc/open5gs/upf.yaml
 

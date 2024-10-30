@@ -170,6 +170,8 @@ services:
     container_name: mme
     env_file:
       - .env
+    cap_add:
+      - SYS_PTRACE
     environment:
       - COMPONENT_NAME=mme-1
     volumes:
